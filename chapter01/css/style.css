@@ -1,0 +1,79 @@
+#wrap{
+    background-color: rgb(53, 122, 201);
+    width: 700px;
+    height: 900px;
+    margin: 0 auto;
+    color: #fff;}
+    header{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(165, 237, 255);               
+        font-size: 24px;
+        text-align: center;
+        line-height: 100px;    
+    }
+    nav{
+        width: 100%;
+        height: 50px;
+        background-color: rgb(101, 184, 233);
+        font-size: 24px;
+        text-align: center;
+        line-height: 50px;
+    }
+    main{
+        width: 70%;
+        height: 650px;
+        background-color: rgb(191, 219, 230);
+        margin-right: auto;
+        font-size: 15px;
+        text-align: center;
+        float: left;
+        color: black;
+        font-weight: 900;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    section{
+        width: 100%;
+        background-color: rgb(253, 255, 136);
+        margin: auto;
+    }
+    #section1{
+        margin-bottom: 20px;
+        height: 450px;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    article{
+        width: 100%;
+        height: 188px;
+        background: #ffdb3a;
+        margin-bottom:20px;
+        line-height: 188px;
+    }
+    #section2{
+        height: 120px;
+        line-height: 120px;
+    }
+    aside{
+        width: 30%;
+        height: 650px;
+        background-color: rgb(227, 198, 255);
+        margin-left: auto;
+        float: right;
+        font-size: 15px;
+        text-align: center;
+        line-height: 650px;
+        font-weight: 900;
+        color: black;
+    }
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: #d15ef5;               
+        font-size: 24px;
+        text-align: center;
+        line-height: 100px;
+        clear: both;
+    }
