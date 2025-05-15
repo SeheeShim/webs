@@ -1,0 +1,74 @@
+*{margin: 0; padding: 0;}
+body{
+    background: #000 url(../images/bg_event.png) no-repeat center 50px;
+    color: #fff;
+}
+
+
+a{text-decoration: none; color: black;}
+ul{list-style: none;}
+header{width: 100%; height: 50px;background: orangered;
+    border: 3px solid #fff; 
+
+    
+}
+
+/* header nav ul{text-align: center;
+    padding-top: 5px;}
+header nav ul li{
+    display: inline}
+header nav ul li a{padding: 5px 10px; display: inline-block;} */
+
+header nav ul{ 
+    display: flex;
+    justify-content: center;
+    align-items: center; height: 50px;
+}
+header nav ul li:hover a{
+    background: #000; color: #fff;
+}
+header nav ul li a{
+    padding: 13px 20px; /* 패딩을 주는 이유는 마우스클릭 범위를 넓혀줌 */
+}
+
+section{
+    width: 485px;
+    margin: 0 auto;
+    padding-top: 260px;
+    }
+
+section p{
+    width: 230px;
+    position: relative;
+    left: 220px;
+    color: #666;
+    text-align: justify;
+    font-size: 14px;
+}
+section dl{
+    width: 250px;
+    position: relative;
+    left: 220px;
+    background: url(../images/event_goods.png) no-repeat
+    right top;
+}
+section dl dt{
+    background: #000; border-radius: 5px;
+     padding: 5px; font-size: 14px; width: 100px;
+     text-align: center;
+}
+section dl dd{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.style1{width: 170px;}
+footer{
+    width: 100%; height: 10%;
+    position: fixed; bottom: 0; left: 0;
+    border-top: 5px solid orangered;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+footer p{color: #fff;}
+footer a{color: #fff;}
