@@ -1,0 +1,17 @@
+*{margin: 0; padding: 0;}
+#wrap{width: 500px; margin: 50px auto; padding: 20px;}
+
+#loginWrap input{width: 100%; margin-bottom: 10px;}
+#loginWrap input[type="text"]{ padding: 10px 20px;
+    box-sizing: border-box; border: 1px solid #000;
+}
+#loginWrap input[type="text"]:focus{ outline: 2px dotted red;}
+#loginWrap input[value]{font-weight: bold;}
+#loginWrap input:nth-child(2){
+    background: url(../images/ico-eye-on.png) no-repeat right 10px center;
+}
+#loginWrap input[type="submit"]{}
+
+#signWrap{}
+#signWrap a{}
+#signWrap a:first-child{}
